@@ -1,0 +1,26 @@
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{titlesec}   
+\usepackage{anyfontsize}
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{float}
+
+% Márgenes
+\geometry{
+    left=3cm,
+    right=3cm,
+    top=3cm,
+    bottom=3cm,
+}
+
+% Formato del título de capítulos
+\titleformat{\chapter}[display]
+{\bfseries\centering}
+{\Large Capítulo \thechapter}
+{0pt}
+{\Huge}
+[\vspace{3ex}]
+\titlespacing{\chapter}{0pt}{0em}{3em}
